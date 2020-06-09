@@ -7,7 +7,7 @@ module.exports = {
   name: require("./package").name,
 
   contentFor(type, config) {
-    if (type !== "head") {
+    if (type !== "body") {
       return;
     }
 
